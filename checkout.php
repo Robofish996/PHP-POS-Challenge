@@ -12,7 +12,6 @@ require_once './include/calculateVAT.php';
 
 // Redirect back to index if payment button is selected
 if (isset($_GET['payment'])) {
-    // Perform payment processing logic here
 
     // Clear the session order and order total
     unset($_SESSION['order']);
