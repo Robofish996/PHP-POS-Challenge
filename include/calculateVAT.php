@@ -1,8 +1,8 @@
 <?php
 
 function calculateVAT($PurchasedItemsTotal) {
-
-    // business logic here...
-
-    return;
+    $vatAmount = $PurchasedItemsTotal * 0.15;
+    return $vatAmount;
 }
+
+?>
